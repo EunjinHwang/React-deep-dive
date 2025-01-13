@@ -1,12 +1,12 @@
 import Players from "./components/Players";
-
+import GameBoard from "./components/GameBoard";
 function App() {
   return (
     <main>
       <div id="game-container">
         <Players />
 
-        Game board
+        <GameBoard />
       </div>
       <div id="log">
         log
